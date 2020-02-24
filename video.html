@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TAG | Internet Health Report</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
+        margin: 0;
+        padding: 0;
+      }
+      html, body{
+        margin: 0;
+        padding: 0;
+      }
+      html{
+        font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        font-size: 16px;
+      }
+
+      .video-container{
+        position: relative;
+      }
+        .video-container iframe{
+          width: 100vw;
+          height: 56.25vw;
+        }
+      .more-information{
+        padding: 1.75rem;
+        box-sizing: border-box;
+      }
+        .more-information h1,
+        .more-information p{
+          margin-bottom: 1rem;
+        }
+
+        @media (min-width: 640px){
+          .more-information .content{
+            columns: 2;
+            column-gap: 1.75rem;
+          }
+          .more-information p{
+            break-inside: avoid;
+          }
+        }
+        @media (min-width: 1024px){
+          html{
+            font-size: 1.4vw;
+          }
+        }
+
+    </style>
+  </head>
+  <body>
+    <article>
+      <section class="video-container">
+        <!-- ADD YOUR VIDEO EMBED HERE -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vhh2Jba9p4g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+      <section class="more-information">
+        <header class="header">
+          <h1>TAG</h1>
+        </header>
+        <div class="content">
+          <p>
+            In responds to the brief to make a solution to privacy and security, we wanted to make a platform where people could learn about how their advertiseing and social media data are being used, and how to control their data from data brokers and foreign entities.
+
+         </p>
+            <p>
+              In responds to the brief to make a solution to privacy and security, we wanted to make a platform where people could learn about how their advertiseing and social media data are being used, and how to control their data from data brokers and foreign entities.
+           </p>
+              <p>
+                We formatted the blog to consist of a personal profile built through data collected about the users from their social media accounts and a google extension tracking the users advertising. The extension helps Tag infer a users search history.
+
+             </p>
+      </div>
+      </section>
+    </article>
+  </body>
+</html>
